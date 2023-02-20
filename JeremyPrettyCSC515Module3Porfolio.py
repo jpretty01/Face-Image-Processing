@@ -1,3 +1,5 @@
+# Jeremy Pretty
+# CSC 515 Module 3 Portofolio Assignment
 import cv2
 import dlib
 import numpy as np
