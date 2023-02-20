@@ -3,10 +3,15 @@
 import cv2
 import dlib
 import numpy as np
+import os
+
+# Getting the file path for both images
+subject1 = os.path.join(os.path.dirname(__file__), 'shutterstock93075775--250.jpg')
+subject2 = os.path.join(os.path.dirname(__file__), 'shutterstock93075775--250.jpg')
 
 # Load the original images for subject 1 and subject 2
-img1 = cv2.imread("subject1.jpg")
-img2 = cv2.imread("subject2.jpg")
+img1 = cv2.imread(subject1)
+img2 = cv2.imread(subject2)
 
 # Convert the original images to grayscale
 gray1 = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
