@@ -1,13 +1,13 @@
 # Jeremy Pretty
-# CSC 515 Module 3 Portofolio Assignment
+# CSC 515 Module 3 Critical Thinking Assignment
 import cv2
 import dlib
 import numpy as np
 import os
 
 # Getting the file path for both images
-subject1 = os.path.join(os.path.dirname(__file__), 'shutterstock93075775--250.jpg')
-subject2 = os.path.join(os.path.dirname(__file__), 'shutterstock93075775--250.jpg')
+subject1 = os.path.join(os.path.dirname(__file__), 'image1.jpeg')
+subject2 = os.path.join(os.path.dirname(__file__), 'image2.jpeg')
 
 # Load the original images for subject 1 and subject 2
 img1 = cv2.imread(subject1)
